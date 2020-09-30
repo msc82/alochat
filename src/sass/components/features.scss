@@ -1,0 +1,27 @@
+.features {
+  padding-bottom: 2rem;
+  background-color: $secondaryBackgroundColor;
+  color: $secondaryFontColor;
+  text-align: center;
+
+  &.how-it-works {
+    padding-top: 2rem;
+    margin-top: 10rem;
+  }
+
+  .feature {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 4rem;
+
+    .feature-title {
+      font-size: 2.4rem;
+      color: $primaryColor;
+    }
+
+    svg {
+      vertical-align: middle;
+      margin: 1rem;
+    }
+  }
+}

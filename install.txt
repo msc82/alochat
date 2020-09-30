@@ -1,0 +1,25 @@
+
+npm install
+
+
+npm start
+
+
+
+npm install --production
+
+
+set NODE_ENV=production
+
+yarn add webpack-scripts
+
+
+yarn add localtunnel
+
+lt --port 8080  --subdomain alochat
+
+
+http://192.168.0.101:8000/
+
+
+New-SelfSignedCertificate -Subject "localhost" -TextExtension @("2.5.29.17={text}DNS=localhost&IPAddress=192.168.1.211&IPAddress=::1")
